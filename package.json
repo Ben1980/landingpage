@@ -1,23 +1,17 @@
 {
-  "name": "landingpage",
-  "version": "1.0.0",
+  "name": " ",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "keywords": "",
+  "license": "",
+  "author": "",
   "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/octologs/landingpage.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/octologs/landingpage/issues"
-  },
-  "homepage": "https://github.com/octologs/landingpage#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "parcel-bundler": "^1.12.4"
   }
 }
