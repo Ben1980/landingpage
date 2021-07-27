@@ -17,6 +17,10 @@ html {
   line-height: 1.4;
 }
 
+body {
+  background: #293133;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -261,3 +265,16 @@ textarea {
   }
 }
 
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+  
+h1,
+h2,
+h3 {
+  color: #fff;
+}
