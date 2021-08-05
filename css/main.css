@@ -42,3 +42,13 @@ h2,
 h3 {
   color: #fff;
 }
+
+footer {
+  display: flex;  
+  flex-flow: row wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 10vh;
+}
