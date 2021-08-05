@@ -48,6 +48,10 @@ p {
   color: #fff;
 }
 
+a {
+  color: #f9c412;
+}
+
 footer {
   display: flex;  
   flex-flow: row wrap;
